@@ -1,0 +1,109 @@
+{
+    "workbench.colorTheme": "Jingle Contrast (rainglow)",
+    "highlight.regexes": {
+        "(//|#|/\\*|\"\"\"| )\\b(important|importante|urgent|urgente|:)\\b": {
+            "decorations": [
+                {
+                    //"overviewRulerColor": "#1f1f1f",
+                    //"backgroundColor": "#1f1f1f",
+                    "color": "#FF0000",
+                    "fontWeight": "bold"
+                },
+                {
+                    //"backgroundColor": "#1f1f1f",
+                    "color": "#FF0000"
+                }
+            ]
+        },
+        "(//|#|/\\*|\"\"\"| )\\b(nota|note|obs|observação)\\b": {
+            "decorations": [
+                {
+                    ///"overviewRulerColor": "#1f1f1f",
+                    ///"backgroundColor": "#1f1f1f",
+                    "color": "#4CAF50",
+                    "fontWeight": "bold"
+                },
+                {
+                    ///"backgroundColor": "#1f1f1f",
+                    "color": "#4CAF50"
+                }
+            ]
+        },
+
+        "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *TODO(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+                {
+                    ///"overviewRulerColor": "#1f1f1f",
+                    ///"backgroundColor": "#1f1f1f",
+                    "color": "#ffcc00",
+                    "fontWeight": "bold"
+                },
+                {
+                    ///"backgroundColor": "#1f1f1f",
+                    "color": "#ffcc00"
+                }
+            ]
+        },
+        "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:FIXME|FIX|BUG|UGLY|DEBUG|HACK|Consertar|Bugado|Debugar|Feio)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+                {
+                    ///"overviewRulerColor": "#1f1f1f",
+                    ///"backgroundColor": "#1f1f1f",
+                    "color": "#cc0000",
+                    "fontWeight": "bold"
+                },
+                {
+                    ///"backgroundColor": "#1f1f1f",
+                    "color": "#cc0000"
+                }
+            ]
+        },
+        "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:REVIEW|OPTIMIZE|TSC|REVER|Melhorar|Otimizar|\\.)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+                {
+                    //"overviewRulerColor": "#00ccff",
+                    //"backgroundColor": "#00ccff",
+                    "color": "#00ccff",
+                    "fontWeight": "bold"
+                },
+                {
+                    //"backgroundColor": "#00ccff",
+                    "color": "#00ccff"
+                }
+            ]
+        },
+        "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:IDEA|Ideia|ideia|_)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+                {
+                    //"overviewRulerColor": "#cc00cc",
+                    //"backgroundColor": "#cc00cc",
+                    "color": "#cc00cc",
+                    "fontWeight": "bold"
+                },
+                {
+                    //"backgroundColor": "#cc00cc",
+                    "color": "#cc00cc"
+                }
+            ]
+        }
+    },
+    "workbench.statusBar.visible": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "editor.fontSize": 17,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "python.defaultInterpreterPath": "c:\\Users\\danie\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "settingsSync.ignoredSettings": [
+        "-python.defaultInterpreterPath"
+    ],
+    "editor.minimap.enabled": false
+}
